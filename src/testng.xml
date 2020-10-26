@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testng Session Test Atomation Suite">
+
+<!-- <listeners> -->
+<!-- 		<listener class-name="ExtentReportListener.ExtentReporterNG" /> -->
+<!-- 	</listeners> -->
+
+
+
+<!-- Alistnere will listen to each and every activiyt of your exceutioin and then bases of -->
+<!-- activity it generate report
+give the correct location -->
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Verizon HealthCheck Job">
+		<classes>
+			<class name="TestngConcepts.ExceptionTimeOutTest.java" />
+			<class name="TestngConcepts.GoogleTest"/>
+			<class name="TestngConcepts.InvocationCountTest"/>
+
+		</classes>
+	</test>
+</suite>
+<!-- This is used to do sequence of test cases if you have 100 test cases -->

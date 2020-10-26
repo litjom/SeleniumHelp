@@ -1,0 +1,20 @@
+Testng - unit test framework
+TDD framework -Test driven development
+Along with new code in UI- we can design oour test cases
+
+-Testing new gernartion framework
+used by dev to develop unit level test cases
+
+IT gives lot of option and feature
+ to gernerate report
+ 
+ purpose- 
+ -Design test cases in sytematic way
+ -Available in form of JAR files
+ -generate good HTML report
+ -Give a lot of annotation
+ -proprities and sequence of the test case
+ -depdency feature
+ -we can also group test cases
+ -Data provider feature if you want to execut the same test case with
+ diff set of data

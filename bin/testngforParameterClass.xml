@@ -1,0 +1,28 @@
+<suite name="Yahoo app test Automation suite">
+
+<!-- <listeners> -->
+<!-- 		<listener class-name="ExtentReportListener.ExtentReporterNG" /> -->
+<!-- 	</listeners> -->
+
+
+
+<!-- Alistnere will listen to each and every activiyt of your exceutioin and then bases of -->
+<!-- activity it generate report
+give the correct location -->
+
+	<listeners>
+		<listener class-name="ParameterTest" />
+	</listeners>
+
+
+	<test name="Yahoo app Test">
+	<parameter name ="url" value="https://yahoo.com"/>
+	<parameter name = "browser" value = "Chrome"/>
+	<parameter name ="emailID" value="test@yahoo.com"/>
+		<classes>
+			<class name="TestngConcepts.Parameterizationin"></class>
+			
+
+		</classes>
+	</test>
+</suite>
